@@ -59,3 +59,6 @@ Then run it from the current folder :
 ./mcls
 ```
 
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
