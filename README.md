@@ -19,3 +19,8 @@ screen and scrollback on Windows, Linux and macOS.
 - Windows
 - Linux
 - macOS
+
+## Requirements
+
+- Go 1.21 or later (only needed to build or install from source)
+- A terminal with ANSI escape sequence support
