@@ -24,3 +24,38 @@ screen and scrollback on Windows, Linux and macOS.
 
 - Go 1.21 or later (only needed to build or install from source)
 - A terminal with ANSI escape sequence support
+
+## Installation
+
+### Using go install
+
+```bash
+go install github.com/MohssineX/mcls@latest
+```
+
+Then run :
+
+```bash
+mcls
+```
+
+> [!NOTE]
+> If the `mcls` command is not found, add your Go `bin` folder to your `PATH`.
+
+### Build from source
+
+```bash
+git clone https://github.com/MohssineX/mcls.git
+cd mcls
+```
+
+```bash
+go build
+```
+
+Then run it from the current folder :
+
+```bash
+./mcls
+```
+
