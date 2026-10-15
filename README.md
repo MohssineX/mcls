@@ -7,6 +7,13 @@
 mcls (multi clear screen) is a cross-platform tool that clears the terminal
 screen and scrollback on Windows, Linux and macOS.
 
+## Features
+
+- Clears the screen and the scrollback buffer
+- Works on Windows, Linux and macOS
+- Enables ANSI escape code support on Windows automatically
+- Single binary with no external dependencies
+
 ## Supported Platforms
 
 - Windows
