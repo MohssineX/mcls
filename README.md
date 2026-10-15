@@ -62,3 +62,18 @@ Then run it from the current folder :
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
+
+## Author
+
+**Mohssine :**
+[https://github.com/MohssineX](https://github.com/MohssineX)
+
+---
+
+## Special Thanks 🐱
+
+Special thanks to **Mimi**, the legendary, great, and gentle cat.
+
+---
+
+### If you like it, give it a star :)
