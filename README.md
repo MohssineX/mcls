@@ -14,6 +14,10 @@ screen and scrollback on Windows, Linux and macOS.
 - Enables ANSI escape code support on Windows automatically
 - Single binary with no external dependencies
 
+> [!IMPORTANT]
+> Make sure your system or terminal supports ANSI escape sequences by default.
+> Otherwise, `mcls` may not work correctly.
+
 ## Supported Platforms
 
 - Windows
