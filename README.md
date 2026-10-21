@@ -33,7 +33,7 @@ screen and scrollback on Windows, Linux and macOS.
 ### Using go install
 
 ```bash
-go install github.com/MohssineX/mcls@latest
+go install github.com/MohssineX/mcls/src/mcls@latest
 ```
 
 Then run :
@@ -53,7 +53,7 @@ cd mcls
 ```
 
 ```bash
-go build
+go build -o mcls ./src/mcls
 ```
 
 Then run it from the current folder :
