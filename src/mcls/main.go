@@ -8,10 +8,10 @@ package main
 // import libraries
 import "os"
 
-const ClearScreenSeq = "\033[H\033[2J\033[3J"
+const clearScreenSeq = "\033[H\033[2J\033[3J"
 
 // Clear the terminal function
-func ClearScreen() {
+func clearScreen() {
 	_, err := os.Stdout.WriteString(ClearScreenSeq)
 
 	if err != nil {
@@ -21,5 +21,5 @@ func ClearScreen() {
 
 func main() {
 	// Clear the terminal
-	ClearScreen()
+	clearScreen()
 }
