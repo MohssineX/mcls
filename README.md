@@ -53,7 +53,7 @@ cd mcls
 ```
 
 ```bash
-go build -o mcls ./src/mcls
+go build ./src/mcls
 ```
 
 Then run it from the current folder :
