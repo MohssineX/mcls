@@ -12,7 +12,7 @@ const clearScreenSeq = "\033[H\033[2J\033[3J"
 
 // Clear the terminal function
 func clearScreen() {
-	_, err := os.Stdout.WriteString(ClearScreenSeq)
+	_, err := os.Stdout.WriteString(clearScreenSeq)
 
 	if err != nil {
 		os.Exit(1)
