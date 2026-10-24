@@ -24,6 +24,8 @@ screen and scrollback on Windows, Linux and macOS.
 - macOS
 - BSD (FreeBSD, OpenBSD, NetBSD)
 
+Tested on : Linux, Windows 
+
 ## Requirements
 
 - Go 1.21 or later (only needed to build or install from source)
