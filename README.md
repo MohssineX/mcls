@@ -22,6 +22,7 @@ screen and scrollback on Windows, Linux and macOS.
 - Windows
 - Linux
 - macOS
+- BSD (FreeBSD, OpenBSD, NetBSD)
 
 ## Requirements
 
