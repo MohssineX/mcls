@@ -3,6 +3,9 @@
 // Copyright (C) 2026 Mohssine <https://github.com/MohssineX>
 // SPDX-License-Identifier: Apache-2.0
 
+// AppName : mcls
+// Version : 1.0.0
+
 package main
 
 // import libraries
