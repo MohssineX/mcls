@@ -4,13 +4,11 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![Stars](https://img.shields.io/github/stars/MohssineX/mcls?style=social)
 
-mcls (multi clear screen) is a cross-platform tool that clears the terminal
-screen and scrollback on Windows, Linux and macOS.
+mcls is a simple terminal command that clears the screen and scrollback buffer in one step.
 
 ## Features
 
 - Clears the screen and the scrollback buffer
-- Works on Windows, Linux and macOS
 - Single binary with no external dependencies
 
 > [!IMPORTANT]
