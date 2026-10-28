@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![Stars](https://img.shields.io/github/stars/MohssineX/mcls?style=social)
 
-mcls is a simple command-line tool written in Go that clears the screen and the scrollback buffer
+**mcls** is a simple command-line tool written in **Go** that clears the screen and the scrollback buffer
 
 ## Features
 
