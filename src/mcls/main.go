@@ -4,7 +4,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // AppName : mcls
-// Version : 1.0.0
+// Version : 1.0.1
 
 package main
 
@@ -17,7 +17,9 @@ const clearScreenSeq = "\033[H\033[2J\033[3J"
 func clearScreen() {
 	_, err := os.Stdout.WriteString(clearScreenSeq)
 
+	// Report errors on stderr and exit with code 1
 	if err != nil {
+		_,_ = os.Stderr.WriteString("mcls: ERROR: " + err.Error())
 		os.Exit(1)
 	}
 }
