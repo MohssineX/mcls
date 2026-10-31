@@ -19,7 +19,7 @@ func clearScreen() {
 
 	// Report errors on stderr and exit with code 1
 	if err != nil {
-		_,_ = os.Stderr.WriteString("mcls: ERROR: " + err.Error())
+		_, _ = os.Stderr.WriteString("mcls: ERROR: " + err.Error())
 		os.Exit(1)
 	}
 }
